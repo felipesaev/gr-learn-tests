@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "*": ["src/*"],
+      "controllers/*": ["src/controllers/*"],
+      "middlewares/*": ["src/middlewares/*"],
+      "services/*": ["src/services/*"],
+      "utils/*": ["utils/*"]
+    }
+  },
+  "include": ["src", "utils", "__tests__"],
+  "exclude": [
+    "node_modules"
+  ]
+}
